@@ -15,12 +15,15 @@ public class MakoroTaskTwoPrj {
     /**
      * @param args the command line arguments
      */
+    //Declarations
     static Learner objLearner = new Learner();
     static String fullName, subject;
     static double assignMark, testMark, examMark;
 
     public static void main(String[] args) {
+        //Method to get Learner Input
         getLearnerInput();
+        //Method to Display Final Mark
         displayFinalMark();
 
     }

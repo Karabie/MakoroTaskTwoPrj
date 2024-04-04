@@ -9,6 +9,7 @@ package rc;
  * @author RC_Student_lab
  */
 public class Learner {
+    //Declarations
     private String fullName, subject;
     private double assignMark,testMark, examMark;
     
@@ -21,6 +22,7 @@ public class Learner {
         this.examMark = 0.00;
     }
     
+    //Overloaded Contructor
      public Learner(String fullName, String subject,double assignMark,double testMark, double examMark){
          setFullName(fullName);
          setSubject(subject);
@@ -28,6 +30,7 @@ public class Learner {
          setTest(testMark);
          setExam(examMark);
      }
+     //Mutators
     //settter method to set learner name
     public void setFullName(String fullName){
         this.fullName = fullName;
